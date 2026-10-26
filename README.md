@@ -2,7 +2,8 @@
 
 OscBoost is a modification of gradient boosted regression trees. It records how the pseudo residual of each training sample changes sign from one boosting iteration to the next. It gives this history to the later trees as two extra input features.
 
-This repository contains the source code of the method from the MSc thesis *Sequential Feature Embeddings in Gradient Boosting Ensembles for Wind Power Forecasting* (Seha Cırıt, Boğaziçi University, 2026). It contains the method and the baseline only. It does not contain the data, the experiment scripts or the plotting code.
+This repository contains the source code of the method from the MSc thesis *Sequential Feature Embeddings in Gradient Boosting Ensembles for Wind Power Forecasting* (Selahattin Seha Cirit, Boğaziçi University, 2026). It contains the method and the baseline only. It does not contain the data, the experiment scripts or the plotting code. 
+Thesis supervisor: Assoc. Prof. Mustafa Gökçe Baydoğan"
 
 ## Method
 
@@ -76,7 +77,7 @@ pytest tests
 If you use this code, please cite the thesis:
 
 ```
-S. Cırıt, Sequential Feature Embeddings in Gradient Boosting Ensembles for Wind Power Forecasting,
+S.S. Cirit, Sequential Feature Embeddings in Gradient Boosting Ensembles for Wind Power Forecasting,
 MSc Thesis, Boğaziçi University, Istanbul, 2026.
 ```
 
